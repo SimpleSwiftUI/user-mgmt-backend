@@ -1,0 +1,14 @@
+{
+  "name": "user-mgmt-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "vercel": "^33.5.3"
+  }
+}
