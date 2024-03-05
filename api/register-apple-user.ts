@@ -5,6 +5,8 @@ export default (req: NowRequest, res: NowResponse) => {
         const { appleUserId, firstName, lastName, email } = req.body;
   
         console.log(`Registering user: ${appleUserId}, ${firstName}, ${lastName}, ${email}`);
+
+        // call databaseCreateUser(...)
         
         res.status(200).json({ message: `${firstName} ${lastName} registered successfully` });
     } else {
